@@ -1,9 +1,17 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { toast } from 'react-toastify'
-import { format, isToday, isTomorrow, isOverdue } from 'date-fns'
+import { format, isToday, isTomorrow } from 'date-fns'
 import ApperIcon from './ApperIcon'
 
+// Custom function to check if a date is overdue
+const isOverdue = (date) => {
+  const today = new Date()
+  const targetDate = new Date(date)
+  today.setHours(0, 0, 0, 0)
+  targetDate.setHours(0, 0, 0, 0)
+  return targetDate < today
+}
 const MainFeature = ({ 
   tasks, 
   categories, 
