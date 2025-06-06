@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Development",
+    "color": "#3B82F6",
+    "taskCount": 4
+  },
+  {
+    "id": "2",
+    "name": "Design",
+    "color": "#8B5CF6",
+    "taskCount": 2
+  },
+  {
+    "id": "3",
+    "name": "Meetings",
+    "color": "#10B981",
+    "taskCount": 2
+  },
+  {
+    "id": "4",
+    "name": "Documentation",
+    "color": "#F59E0B",
+    "taskCount": 1
+  },
+  {
+    "id": "5",
+    "name": "Research",
+    "color": "#EF4444",
+    "taskCount": 1
+  },
+  {
+    "id": "6",
+    "name": "Security",
+    "color": "#DC2626",
+    "taskCount": 1
+  },
+  {
+    "id": "7",
+    "name": "DevOps",
+    "color": "#059669",
+    "taskCount": 1
+  },
+  {
+    "id": "8",
+    "name": "Marketing",
+    "color": "#7C3AED",
+    "taskCount": 1
+  },
+  {
+    "id": "9",
+    "name": "Testing",
+    "color": "#0891B2",
+    "taskCount": 1
+  },
+  {
+    "id": "10",
+    "name": "Training",
+    "color": "#BE123C",
+    "taskCount": 1
+  }
+]
